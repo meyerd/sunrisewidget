@@ -102,6 +102,7 @@ public class SettingsActivity extends PreferenceActivity {
             // guidelines.
             bindPreferenceSummaryToValue(findPreference("pref_latitude"));
             bindPreferenceSummaryToValue(findPreference("pref_longitude"));
+//            bindPreferenceSummaryToValue(findPreference("pref_auto_location"));
         }
 
         @Override

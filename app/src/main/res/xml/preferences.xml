@@ -13,8 +13,7 @@
             android:inputType="numberDecimal"
             android:capitalize="words"
             android:singleLine="true"
-            android:maxLines="1"
-            />
+            android:maxLines="1" />
 
         <EditTextPreference
             android:key="pref_longitude"
@@ -25,6 +24,11 @@
             android:capitalize="words"
             android:singleLine="true"
             android:maxLines="1" />
+
+        <CheckBoxPreference
+            android:key="pref_auto_location"
+            android:title="Use GPS location"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>
